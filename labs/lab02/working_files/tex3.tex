@@ -1,0 +1,25 @@
+\documentclass[a4paper,12pt]{article} % The document class with options
+% select T1 font encoding: suitable for Western European Latin scripts
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+% A comment in the preamble
+\begin{document}
+% This is a comment
+This is a simple
+document\footnote{with a footnote}.
+This is a new paragraph.
+
+Empty line starts new paragraph. 
+However new line does not start new paragraph.
+
+\begin{equation}\label{eq:1}
+	a + b =                             c
+\end{equation} 
+
+\begin{equation}\label{eq:2}
+	a + b = c \ \ \ \ \ \ \ \ \  c \in \{1, 2, 3\}
+\end{equation} 
+
+Hehe we try hard space in citing equation~\eqref{eq:1}.  Playing with charcters cite equation \#\ref{eq:2}.
+
+\end{document}
