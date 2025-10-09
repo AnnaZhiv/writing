@@ -1,6 +1,10 @@
-# lab01 (13.09.2025)
+# lab01 & lab02 (13.09.2025)
 
-**Full Changelog**: https://github.com/AnnaZhiv/study_2024_math_infoseq/commits/l-01
+**Full Changelog**: https://github.com/AnnaZhiv/writing/commits/l1
+
+# lab03 (09.10.2025)
+
+**Full Changelog**: https://github.com/AnnaZhiv/writing/compare/l1...l-3
 
 
 

@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts,graphicx,bm}
+\begin{document}
+
+% inline math mode
+Inline math mode befins with \$ and ends with \$. In such case, equations $kx+b=0$ are inlined in text. Even if they contains large symbols such as $\sum\limits_{i=0}^{N}a_i<\infty.$ LaTex automatically mark up them well. 
+
+% display math mode
+Display math mode can be realized with several envieroments. Math text should be inside \verb|\[| and \verb|\]| as, for example, \[kx+b=0\] or between \$\$ and \$\$ as, for example, $$kx+b=0,$$ or inside \verb|\begin{smth}| and \verb|\end{smth}|, where smth may be either
+\begin{itemize}
+    \item \verb|align|,
+    \item \verb|equation|,
+    \item \verb|gather|,
+    \item \verb|multline|, 
+\end{itemize}
+or others. In the last case (where math is inside \verb|\begin{smth}| and \verb|\end{smth}|) each line is numbered by default, with numbers in backets on the left side. Examples:
+\begin{align}
+    k_1x+b_1=0, \\
+    k_2x+b_2=0,
+\end{align}
+\begin{gather}
+    k_3x+b_3=0, \\
+    k_4x+b_4=0,
+\end{gather}
+\begin{multline}
+    k_5x+b_5=0, \\
+    k_6x+b_6=0,
+\end{multline}
+\begin{equation}
+    k_7x+b_7=0.
+\end{equation}
+The line is breacken with use of \verb|\\| sign at the end of the line. Only \verb|equation| does not support line breaking. 
+
+
+To avoid numbering add * after \verb|smth| 
+\begin{align*}
+    \alpha_1x+\beta_1=\Delta, 
+\end{align*}
+\begin{gather*}
+    \alpha_2x+\beta_2=\Psi, 
+\end{gather*}
+\begin{multline*}
+    \alpha_3x+\beta_3=\Phi,  
+\end{multline*}
+\begin{equation*}
+    \alpha_4x+\beta_4=\Omega.
+\end{equation*}
+
+% general math
+Math mode draws spaced italic letters such as $text$. Other font styles are possible:
+\begin{itemize}
+    \item  \verb|\mathbf{X}| $\rightarrow \mathbf{X}$,
+    \item  \verb|\bm{\chi}| $\rightarrow \bm{\chi}$,
+    \item  \verb|\boldsymbol{\hi}|$ \rightarrow \boldsymbol{\chi}$,
+    %\item  \verb|{\boldmath $\chi$}|$ \rightarrow {\boldmath $\chi$}$,
+    \item  \verb|\mathrm{X}|$ \rightarrow \mathrm{X}$,
+    \item  \verb|\mathcal{X}|$ \rightarrow \mathcal{X}$,
+    \item  \verb|\mathbb{X}|$ \rightarrow \mathbb{X}$,
+    \item  \verb|\mathsf{X}|$ \rightarrow \mathsf{X}$,
+    \item  \verb|\mathtt{X}|$ \rightarrow \mathtt{X}$,
+    \item  \verb|\mathit{X}|$ \rightarrow \mathit{X}$.
+\end{itemize}
+If we want to change type text inside math mode, we should use \verb|\text{ ... }|.  Superscripts and subscripts are writen inside \{\}.  Superscripts after \^ sign (\verb|$a^{2}$| $\rightarrow a^{2}$) and subscripts after \_ sign (\verb|$a_{2}$| $\rightarrow a_{2}$). Math mode has a lot of comands. For example
+\begin{align*}
+    \log x & \quad \sin x & \max x & \quad \infty \\
+    \in & \quad \cap & \cdots & \quad \neq
+\end{align*}
+
+\end{document}

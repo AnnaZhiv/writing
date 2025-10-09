@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+
+% Пакет для подключения картинок
+\usepackage{graphicx}
+% Пакет для ссылок (hyper references)
+\usepackage{hyperref}
+
+
+\author{Ivanov Ivan Ivanovich}
+\title{Super report}
+
+% Для компиляции выполнить pdflatex main.tex
+
+\begin{document}
+  \maketitle
+  \pagebreak
+
+
+  Hello world!\footnote{Remark}
+  This is a first document. Look at fig.~\ref{fig:fig01}
+  % Символ ~ обозначает неразрывный пробел. Нужен для того, чтобы ссылка не перескочила в одиночестве на следующую строку.
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at euismod justo, non tristique neque. In nibh nibh, accumsan eu mauris eu, posuere tempor turpis. Morbi et dui laoreet urna pulvinar semper sit amet eget sapien. Maecenas a elit nec ante mattis mollis. Sed sit amet mauris sollicitudin, facilisis purus nec, commodo mauris. Quisque consectetur velit libero, vitae rhoncus massa mollis non. Suspendisse at urna et est fermentum finibus a ut mauris. 
+
+  % Вставка картинки
+  % параметр width регулирует ширину картинки в долях ширины текста без учета полей
+  % !Важно! Картинки будут появляться не там где вы их вставили, а на первый взгляд в произвольном месте. Чтобы 
+  \begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{fig.png}
+    \caption{First screenshot}
+    \label{fig:fig01}
+  \end{figure}
+
+  % Формула с лейблом. По лейблу можно на формулу ссылаться
+  \begin{equation}\label{eq:eq01}
+    y(x) = \lim_{x \to 0} \sin^2(x)
+  \end{equation}
+  Etiam id accumsan magna. Nunc non odio facilisis justo tincidunt commodo vel eu nisl. Integer tincidunt quam malesuada diam dapibus dignissim. Aenean sed porttitor sem, sit amet ornare nisi. Duis viverra est vel congue dignissim. Sed metus lectus, placerat ac est id, ultricies faucibus metus. Duis ullamcorper eget elit vel fringilla. In vitae est augue. Nullam dapibus ornare placerat. Aliquam nisi quam, elementum sit amet consectetur at, dapibus facilisis diam. Suspendisse accumsan eros quis faucibus fermentum. Praesent at sem mi. Vivamus semper dictum magna ut posuere. Mauris vitae nunc efficitur, vehicula neque eu, venenatis metus. Maecenas id dui feugiat, rutrum elit lobortis, egestas arcu. Suspendisse consectetur nisl in velit mollis viverra~(\ref{eq:eq01}).
+
+
+  
+\end{document}
