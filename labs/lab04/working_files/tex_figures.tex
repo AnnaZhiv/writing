@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{lipsum} 
+\usepackage{float} 
+\begin{document}
+
+\section{Figure placement}\label{sec}
+
+\subsection{Float placement}\label{subsec}
+
+\lipsum[1-4]
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.5\textwidth]{mem}
+    \label{fig:label_before_fig_caption}\caption{An example image}
+\end{figure}
+
+\lipsum[5-8]
+
+\begin{figure}[b!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{mem}
+    \caption{An example image\label{fig:label_inside_fig_caption}}
+\end{figure}
+
+\lipsum[9-16]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{mem}
+    \caption{An example image}\label{fig:label_after_fig_caption}
+\end{figure}
+
+\lipsum[17-20]
+
+\section{Referencing}
+
+Reference on the label that is before figure caption \ref{fig:label_before_fig_caption}.
+
+Reference on the label that is inside figure caption \ref{fig:label_inside_fig_caption}.
+
+Reference on the label that is after figure caption \ref{fig:label_after_fig_caption}.
+
+Reference on the section label \ref{sec}.
+
+Reference on the subsection label \ref{subsec}.
+
+\begin{equation}
+    a + b = x
+\end{equation}\label{eq:will_it_be}
+
+Reference on the label that is after equation envieroment \ref{eq:will_it_be}.
+
+\end{document}

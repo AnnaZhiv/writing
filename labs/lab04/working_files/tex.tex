@@ -1,0 +1,61 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage[english, russian]{babel}
+\begin{document}
+
+самая простая вставка без опций \\
+\includegraphics{mem} 
+\newpage
+
+%%%%%%%%%%%%%%%%%% ширина и высота абсолютные %%%%%%%%%%%%%%%%%%%%%%%
+
+задали высоту в абсолютной величине 2 см \\
+\includegraphics[height=2cm]{mem} 
+\\
+задали ширину в абсолютной величине 2 см \\
+\includegraphics[width=2cm]{mem} %
+\\
+задали высоту и ширину в абсолютной величине 2 см \\
+\includegraphics[height=2cm, width=2cm]{mem} 
+\\
+%%%%%%%%%%%%%%%%%% ширина и высота относительные (одна колонка) %%%%%%%%%%%%%%%%%%%%%%%
+задали высоту в относительной величине 15\% от высоты текста \\
+\includegraphics[height=0.15\textheight]{mem} 
+\\
+задали ширину относительной величине 15\% от ширины текста \\
+\includegraphics[width=0.15\textwidth]{mem}  
+\\
+задали высоту и ширину в относительной величине 15\% от текста \\
+\includegraphics[height=0.15\textheight, width=0.15\textwidth]{mem} 
+\\
+задали ширину относительной величине 15\% от ширины линии \\
+\includegraphics[width=0.15\linewidth]{mem} 
+\newpage
+%%%%%%%%%%%%%%%%%% окружения %%%%%%%%%%%%%%%%%%%%%%%
+в окружении center \\
+\begin{center}
+\includegraphics[height=2cm, width=2cm]{mem} 
+\end{center}
+
+в окружении flushleft \\
+\begin{flushleft}
+\includegraphics[height=2cm, width=2cm]{mem} 
+\end{flushleft}
+
+в окружении flushright \\
+\begin{flushright}
+\includegraphics[height=2cm, width=2cm]{mem} 
+\end{flushright}
+\newpage
+%%%%%%%%%%%%%%%%%% clip trip rotate scale %%%%%%%%%%%%%%%%%%%%%%%
+
+\includegraphics[width=0.2\linewidth,  trim = 0 0 50 50]{mem} % trim =dl db dr du
+
+\includegraphics[width=0.2\linewidth,  clip]{mem} % clip 
+
+\includegraphics[scale=0.2]{mem} % scale 
+
+\includegraphics[width=0.2\linewidth,  angle=60]{mem} % rotate 
+
+\end{document}
