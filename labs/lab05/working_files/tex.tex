@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{booktabs}
+\begin{document}
+
+
+\begin{tabular}{>{\itshape}l<{:}cr|p{2cm}@{ : }m{2cm}!{:}b{2cm}}
+Animal & Food & Size & tro lo lo lo lo lo lo lo lo lo lo tro lo lo & ioio & nono \\
+\toprule
+dog & meat & medium  & lala & tata & lolo \\
+\midrule
+horse & hay & large & pupu & papa & meme \\
+\cmidrule{2-3}
+frog & flies & small & susu & nana & bebe \\
+\cmidrule(r){1-1}
+\cmidrule(rl){2-2}
+\cmidrule(l){3-3}
+dada & baba & kaka & fufu & tutu & mumu \\
+\addlinespace
+gege & hehe & meme & nene & \multicolumn{2}{c}{unknown} \\[4pt]
+xexe & wowo & koko & haha & rara & haha \\ 
+\midrule[2pt]
+yaya & yeye & yoyo & popo & bobo & jojo \\
+\bottomrule
+\end{tabular}
+
+\#\#\#\#\#\#\#\#\#\#\#\#here the next tables come \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+\begin{tabular}{lll}
+    1 & 2 & 3 \\
+    4 & 5 6 \\
+\end{tabular}
+\begin{tabular}{lll}
+    1 & 2 & 3 \\
+    4 & 5 & & 6 \\
+\end{tabular}
+
+
+\end{document}
