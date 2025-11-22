@@ -14,6 +14,10 @@
 
 **Full Changelog**: https://github.com/AnnaZhiv/writing/compare/l-4...l-5
 
+# lab05 (22.11.2025)
+
+**Full Changelog**: https://github.com/AnnaZhiv/writing/compare/l-4...l-6
+
 
 
 

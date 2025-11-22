@@ -1,0 +1,20 @@
+%Try out both the natbib and biblatex examples. For natbib, you’ll need
+%to run LaTeX, BibTeX, LaTeX, LaTeX; for biblatex, it’s LaTeX, Biber, LaTeX.
+%• See what happens when you create new database entries and new citations.
+%• Add a citation that’s not in the database and see how it appears.
+%• Experiment with natbib’s numeric and biblatex’s style=numeric option.
+
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[square,numbers]{natbib}
+\begin{document}
+The mathematics showcase is from \citet{article}, whereas
+there is some chemistry in \citet{article}.
+Some parenthetical citations: \citep{article}
+and then \citep[p.~56]{article}.
+\citep[See][pp.~45--48]{book2}
+Together \citep{article, book2, article_ds, aaa}
+\bibliographystyle{plainnat}
+\bibliography{cite}
+
+\end{document}

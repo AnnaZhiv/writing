@@ -1,0 +1,159 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{article_ds}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=b471cf24cc92321a75f97b0d6fc233ce}{%
+           family={Gevorkyan},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=333d330b5e1b26246adf6526a0e9fe9b}{%
+           family={Velieva},
+           familyi={V\bibinitperiod},
+           given={Tatyana},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7691ab1ba2d75d92fdbe467819ab4e2a}{%
+           family={Korolkova},
+           familyi={K\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f831d783ba5efa04d456580c970d531a}{%
+           family={Kulyabov},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e4cc9df30f466239bcc5b720890d7253}{%
+           family={Sevastyanov},
+           familyi={S\bibinitperiod},
+           given={Leonid},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2fda85358bef53ec373c10b8f79bb88}
+      \strng{fullhash}{7cbd78df1ed1baa939eef9690519ce47}
+      \strng{fullhashraw}{7cbd78df1ed1baa939eef9690519ce47}
+      \strng{bibnamehash}{a2fda85358bef53ec373c10b8f79bb88}
+      \strng{authorbibnamehash}{a2fda85358bef53ec373c10b8f79bb88}
+      \strng{authornamehash}{a2fda85358bef53ec373c10b8f79bb88}
+      \strng{authorfullhash}{7cbd78df1ed1baa939eef9690519ce47}
+      \strng{authorfullhashraw}{7cbd78df1ed1baa939eef9690519ce47}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Programming and Computer Software}
+      \field{month}{03}
+      \field{title}{Projective Geometric Algebra in Plane and Its Implementation in the Library Ganja.js}
+      \field{volume}{51}
+      \field{year}{2025}
+      \field{pages}{67\bibrangedash 82}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1134/S0361768824700865
+      \endverb
+    \endentry
+    \entry{book2}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=65e6323adac2eec778c3822c50f54174}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={Ronald\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=b5085a32ea3005cb2c63376fae9f0646}{%
+           family={Patashnik},
+           familyi={P\bibinitperiod},
+           given={Oren},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{fullhash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{fullhashraw}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{bibnamehash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{authorbibnamehash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{authornamehash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{authorfullhash}{75cc54ed2f979f868345a841e7a30c01}
+      \strng{authorfullhashraw}{75cc54ed2f979f868345a841e7a30c01}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Concrete Mathematics}
+      \field{year}{1995}
+    \endentry
+    \entry{article}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=528106e0813eb0717a1b7d9755e978ce}{%
+           family={Zhivtsova},
+           familyi={Z\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7539f65640840814460958a82638230c}{%
+           family={Beschastnyi},
+           familyi={B\bibinitperiod},
+           given={Vitalii},
+           giveni={V\bibinitperiod}}}%
+        {{hash=1b1c95790f3403d472ac8a4befa0eb49}{%
+           family={Koucheryavy},
+           familyi={K\bibinitperiod},
+           given={Yevgeni},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1002cd2ba0ab5b9468853b4c8e9cf8c0}{%
+           family={Samouylov},
+           familyi={S\bibinitperiod},
+           given={Konstantin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b4c773e3c5473b09e64c00dcc4d4fbc}
+      \strng{fullhash}{4be499ae718c3f473bf633bc110d2024}
+      \strng{fullhashraw}{4be499ae718c3f473bf633bc110d2024}
+      \strng{bibnamehash}{0b4c773e3c5473b09e64c00dcc4d4fbc}
+      \strng{authorbibnamehash}{0b4c773e3c5473b09e64c00dcc4d4fbc}
+      \strng{authornamehash}{0b4c773e3c5473b09e64c00dcc4d4fbc}
+      \strng{authorfullhash}{4be499ae718c3f473bf633bc110d2024}
+      \strng{authorfullhashraw}{4be499ae718c3f473bf633bc110d2024}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A Survey of Delay-Oriented Dynamic Link Scheduling Policies for 5G/6G Integrated Access and Backhaul Systems}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{118565\bibrangedash 118586}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3446569
+      \endverb
+      \keyw{Backhaul networks;Dynamic scheduling;Throughput;Delays;Surveys;Optimization;Uplink;5G mobile communication;6G mobile communication;Terahertz communications;5G;6G;IAB;millimeter wave;terahertz;half-duplex;link scheduling;backpressure;network control}
+    \endentry
+  \enddatalist
+  \missing{aaa}
+\endrefsection
+\endinput
+

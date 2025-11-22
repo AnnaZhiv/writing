@@ -1,0 +1,17 @@
+%Try out both the natbib and biblatex examples. For natbib, you’ll need
+%to run LaTeX, BibTeX, LaTeX, LaTeX; for biblatex, it’s LaTeX, Biber, LaTeX.
+%• See what happens when you create new database entries and new citations.
+%• Add a citation that’s not in the database and see how it appears.
+%• Experiment with natbib’s numeric and biblatex’s style=numeric option.
+
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage[style=numeric]{biblatex}
+\addbibresource{cite.bib} % file of reference info
+\begin{document}
+Together \autocite{article,book2,article_ds,aaa} Some more complex citations: \parencite{article} or
+\textcite{article} or possibly \citetitle{article}.
+\autocite[56]{article}
+\autocite[See][45-48]{article}
+\printbibliography
+\end{document}
